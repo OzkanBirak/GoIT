@@ -36,6 +36,13 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
 
     int result = IonConsecutive(arr, n);
-    cout << "The length of the longest consecutive sequence is: " << result << endl;
+    cout << "The length of the longest consecutive sequence is: " << result;
+
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+
     return 0;
 }
