@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int IonConsecutive(int arr[], int n) {
+int IonConsecutive(int dizi[], int n) {
     if (n == 0) {
         return 0;
     }
@@ -10,15 +10,15 @@ int IonConsecutive(int arr[], int n) {
 
    
     for (int i = 0; i < n; i++) {
-        int current = arr[i];
+        int current = dizi[i];
         int currentLength = 1;
 
         
         for (int j = 0; j < n; j++) {
-            if (arr[j] == current + 1) { 
+            if (dizi[a] == current + 1) { 
                 current++;
                 currentLength++;
-                j = -1;
+                a = -1;
             }
         }
 
@@ -32,8 +32,8 @@ int IonConsecutive(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {1, 24, 5, 2, 12};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int dizi[] = {1, 34, 5, 2, 12};
+    int n = sizeof(dizi) / sizeof(dizi[0]);
 
     int result = IonConsecutive(arr, n);
     cout << "The length of the longest consecutive sequence is: " << result;
