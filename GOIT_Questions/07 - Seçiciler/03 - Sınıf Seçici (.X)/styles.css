@@ -1,0 +1,29 @@
+/* Page header background color */
+.page-header {
+    background-color: #bdbdbd;
+  }
+  
+  /* Page title text color */
+  .page-title {
+    color: #f44336;
+  }
+  
+  /* Section title text color */
+  .section-title {
+    color: #3f51b5;
+  }
+  
+  /* Section text color */
+  .section-text {
+    color: #ff5722;
+  }
+  
+  /* Page footer background color */
+  .page-footer {
+    background-color: #212121;
+  }
+  
+  /* Copyright text color */
+  .copyright-text {
+    color: #ffffff;
+  }  
